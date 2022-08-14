@@ -2,7 +2,7 @@
 <## what we have done to this script is 
 - command will not cache azure portal login from local system 
 - we will login to the portal using "Application object" which is in tern "service principle"
-- very importetn - we have to allow the "Application object" to create resources under my subscription. we can grant this as resource group level also. to acive this 
+- very importetn - we have to allow the "Application object" to create resources under my subscription. we can grant this as resource group level also. to achieve this 
 we need to go subscription - select my targeted subscription - Access control (IAM) - Add - "Add Role Asignment" - select the role [here it's contributer] - 
 select your "application object name from drop down and complete the process."
 #>
